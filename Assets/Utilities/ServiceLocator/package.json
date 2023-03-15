@@ -1,0 +1,10 @@
+{
+	"name": "com.apollo.servicelocator",
+	"displayName":"Service Locator Utility",
+	"version": "1.2.3",
+    "unity": "2018.2",
+    "keywords": ["locator", "singleton", "resolver"],
+    "category": "utils",
+	"description": "The Service Locator pattern utility is a use full and simple pattern to avoid singletons and make unit testing easier",
+    "dependencies": {}
+}
