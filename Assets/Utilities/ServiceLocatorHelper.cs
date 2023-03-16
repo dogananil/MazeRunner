@@ -21,7 +21,7 @@ namespace Main.utility
             var prefabLocator = new ServiceLocatorPrefab()
             {
                 ObjectToInstantiate = obj,
-                OnNetwork = onNetwork
+                //OnNetwork = onNetwork
             };
             ServiceLocatorManager.Instance.Register<T>(prefabLocator, dontDestroyOnLoad);
         }
